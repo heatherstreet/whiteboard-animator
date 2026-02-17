@@ -113,24 +113,24 @@ We automate what Doodly's "Smart Draw" requires users to do manually.
 ### MVP (Launch)
 
 #### Core Functionality
-- [ ] **Upload any image** - JPG, PNG, SVG support
-- [ ] **Auto sketch conversion** - Optional pencil/sketch style
-- [ ] **AI stroke detection** - Analyze and trace actual drawing paths
-- [ ] **Natural reveal animation** - Strokes appear as if hand-drawn
-- [ ] **Export MP4** - 720p, 1080p options
-- [ ] **Duration control** - 5-30 seconds adjustable
-- [ ] **Speed/easing options** - Linear, ease-in, ease-out
+- [x] **Upload any image** - JPG, PNG support ✅
+- [x] **Auto sketch conversion** - Optional pencil/sketch style ✅
+- [x] **AI stroke detection** - Analyze and trace actual drawing paths ✅
+- [x] **Natural reveal animation** - Strokes appear as if hand-drawn ✅
+- [x] **Export MP4** - 720p, 1080p options ✅
+- [x] **Duration control** - 3-20 seconds adjustable ✅
+- [x] **Speed/easing options** - Ease-out cubic ✅
 
 #### Board Styles
-- [ ] **Whiteboard** - White background, dark strokes
+- [x] **Whiteboard** - White background, dark strokes ✅
 - [ ] **Blackboard** - Dark background, chalk effect
-- [ ] **Original colors** - Keep source image colors
+- [x] **Original colors** - Keep source image colors (--no-sketch) ✅
 
 #### Web Interface
-- [ ] **Simple upload flow** - Drag & drop or file picker
-- [ ] **Live preview** - See animation before export
-- [ ] **Progress indicator** - Processing status
-- [ ] **Download button** - Get MP4
+- [x] **Simple upload flow** - Drag & drop or file picker ✅
+- [x] **Live preview** - See animation before export ✅
+- [x] **Progress indicator** - Processing status ✅
+- [x] **Download button** - Get MP4 ✅
 
 ### V1.1 (Post-Launch)
 
@@ -146,7 +146,7 @@ We automate what Doodly's "Smart Draw" requires users to do manually.
 
 #### Enhancements
 - [ ] **Batch processing** - Multiple images at once
-- [ ] **Aspect ratios** - 16:9, 9:16 (vertical), 1:1 (square)
+- [x] **Aspect ratios** - 16:9, 9:16 (vertical), 1:1 (square) ✅
 - [ ] **Watermark** - Optional user logo overlay
 
 ### V2.0 (Growth)
@@ -279,8 +279,10 @@ Emphasize:
 ## Next Steps
 
 1. ✅ Core algorithm (v3 stroke tracing) - DONE
-2. [ ] Build simple web interface
-3. [ ] Set up backend API + job queue
-4. [ ] Add Stripe payments
-5. [ ] Soft launch, get feedback
-6. [ ] Iterate based on user feedback
+2. ✅ Build simple web interface - DONE
+3. ✅ Set up backend API + job queue - DONE (FastAPI + background tasks)
+4. [ ] Add custom domain (whiteboard.whinn.xyz)
+5. [ ] Add Stripe payments
+6. [ ] User accounts / auth
+7. [ ] Soft launch, get feedback
+8. [ ] Iterate based on user feedback
